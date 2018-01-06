@@ -10,7 +10,7 @@ function out = adder()
    weights = rand(2, 2);
 
     % Loops through and trains the neural network
-    for loopCount = 1:10000
+    for loopCount = 1:1000
         temp = randi(4);
         input = inputArray(temp, :);
         realOut = realOutArray(temp,:);
